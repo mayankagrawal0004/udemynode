@@ -1,5 +1,12 @@
-var greet = require('./greet');
-greet();
+//var greet = require('./greet');
+var requiremore = require("./requiremore");
+
+
+//requiremore.english();
+//requiremore.hindi();
+
+
+//greet();
 
 //person.greetings();
 
@@ -18,7 +25,7 @@ Person.prototype.manage  = function()
 var rahul = new Person("John","abhrahim");
 
 console.log(rahul.firstname);
-rahul.manage();*/
+rahul.manage();
 
 //pass by reference
 
@@ -48,4 +55,4 @@ console.log(s);
 
     var first ="sharma";
     console.log(first);
-}())
+}())*/
