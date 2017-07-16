@@ -14,4 +14,4 @@
      }
      }
 person.greetings();
-     module.exports = person.greetings;
+     module.exports = person.greetings; 
