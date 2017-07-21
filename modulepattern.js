@@ -26,3 +26,6 @@ greet4.greet();
 var greet5 = require("./greet5");
 var greet = new greet5();
 greet.greet();
+
+
+//exports and module.exports are two different thing but they point to same object like pass by reference 
